@@ -6,9 +6,8 @@ app.use(express.static('public'));
 
 app.set('puerto', process.env.PORT || 3030);
 
-app.listen (app.get('puerto'), () => console.log 
-('Servidor escuchando en puerto 
-${app.get ('puerto')}')) ;
+app.listen (app.get('puerto'), ()=>console.log('Servidor escuchando en puerto' ${app.get('puerto')}));
+//('Servidor escuchando en puerto ${app.get ('puerto')}')) ;
 
 (process.env.PORT|| 3030, function() 
 {console.log ('Servidor escuchando')});
